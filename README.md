@@ -38,8 +38,7 @@ Built with a **modern UI, real-time data, and advanced user experience**, this p
 
 > Looks and feels like a modern SaaS product, not a typical demo project.
 
-(You can add screenshots or a live demo link here later.)
-
+Here is the link: https://history-reimagined.netlify.app/
 ---
 
 ## 🛠️ Tech Stack
@@ -56,11 +55,11 @@ Built with a **modern UI, real-time data, and advanced user experience**, this p
 ---
 
 ## 📁 Project Structure
-on-this-day/
-│
-├── index.html # Application structure
-├── style.css # World-class UI & animations
-└── script.js # Core logic & API integration
+      on-this-day/
+      │
+      ├── index.html # Application structure
+      ├── style.css # World-class UI & animations
+      └── script.js # Core logic & API integration
 ---
 
 ## 🚀 Getting Started
