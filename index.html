@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On This Day | History Reimagined</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<main class="app">
+    <header>
+        <h1>On This Day</h1>
+        <p>Explore events, births & deaths that shaped history</p>
+    </header>
+
+    <section class="controls">
+        <input type="date" id="dateInput">
+        <button onclick="loadData()">Explore</button>
+    </section>
+
+    <section class="tabs">
+        <button onclick="switchTab('events')" class="active">Events</button>
+        <button onclick="switchTab('births')">Births</button>
+        <button onclick="switchTab('deaths')">Deaths</button>
+    </section>
+
+    <section id="content" class="content"></section>
+
+    <footer>
+        Powered by Wikipedia · Built with ❤️
+    </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
